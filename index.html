@@ -1,0 +1,765 @@
+﻿<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Montserrat-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Montserrat-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Arimo-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Arimo-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Home Page</title>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1754905395399"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1754905395399">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" class="header" role="banner">
+				<div class="header__container">
+					<!-- Logo: use <a> for home navigation and aria-label for screen readers -->
+					<a href="#!" class="header__logo" aria-label="Home">
+						<img src="./assets/img/logo.svg" alt="Company Logo">
+					</a>
+					<!-- Main navigation: add role and aria-label in your menu.html -->
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link">Home</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Services</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Podcasts</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Blog</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">About</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+					<div class="header__actions">
+						<button type="button" class="header__btn" aria-label="Contact us">contact us</button>
+						<button type="button" data-fls-menu="" class="icon-menu" aria-label="Open main menu" aria-controls="main-nav" aria-expanded="false">
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</header>
+			<main class="page page--home">
+				<section class="page__hero hero" data-fls-watcher="" data-fls-watcher-once="" aria-label="main-banner">
+					<div data-fls-slider="" class="hero__slider swiper" role="region" aria-label="Slider">
+						<div class="hero__wrapper swiper-wrapper">
+							<div class="hero__slide swiper-slide slide-hero slide-hero--one" role="group" aria-roledescription="slide" aria-label="1 of 3">
+								<div class="slide-hero__container-big">
+									<div class="slide-hero__inner">
+										<div class="slide-hero__body">
+											<h3 class="slide-hero__sub-title">
+												Duis congue mauricDuis congue mauricDuis congue mauric
+									Duis congue mauricDuis congue mauricDuis congue mauricDuis congue mauricDuis congue
+									mauric
+											</h3>
+											<h2 class="slide-hero__title">We grow your business</h2>
+											<div class="slide-hero__elem">
+												<a href="#!" class="slide-hero__link" aria-label="About Duis congue mauric">view
+										more</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="hero__slide swiper-slide slide-hero slide-hero--two" role="group" aria-roledescription="slide" aria-label="2 of 3">
+								<div class="slide-hero__container-big">
+									<div class="slide-hero__inner">
+										<div class="slide-hero__body">
+											<h3 class="slide-hero__sub-title">Duis congue mauric</h3>
+											<h2 class="slide-hero__title">We grow your business</h2>
+											<div class="slide-hero__elem">
+												<a href="#!" class="slide-hero__link" aria-label="About Duis congue mauric">view
+										more</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="hero__slide swiper-slide slide-hero slide-hero--three" role="group" aria-roledescription="slide" aria-label="3 of 3">
+								<div class="slide-hero__container-big">
+									<div class="slide-hero__inner">
+										<div class="slide-hero__body">
+											<h3 class="slide-hero__sub-title">Duis congue mauric</h3>
+											<h2 class="slide-hero__title">We grow your business</h2>
+											<div class="slide-hero__elem">
+												<a href="#!" class="slide-hero__link" aria-label="About Duis congue mauric">view
+										more</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hero__container-big">
+							<div class="hero__slider-btns">
+								<button type="button" class="slide-hero-button-prev --icon-arrow-left" aria-label="Next Slide"></button>
+								<button type="button" class="slide-hero-button-next --icon-arrow-right" aria-label="Previous slide"></button>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="page__ceo-info ceo-info">
+					<div class="ceo-info__container" data-fls-watcher="" data-fls-watcher-once="" role="region" aria-label="Information about SEO">
+						<div class="ceo-info__text">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non lacus vehicula,
+								<span>maximus
+						lorem malesuada condimentum
+						felis</span>
+								.Praesent posuere quam a rutrum dignissim. Pellentesque dolor sapien, lobortis vel
+					pulvinar
+					rhoncus
+							</p>
+						</div>
+						<div class="ceo-info__about">
+							<span aria-label="General Director">Aenean Eget - CEO</span>
+						</div>
+					</div>
+				</div>
+				<section class="page__articles articles" aria-labelledby="articles-title">
+					<div class="articles__items" data-fls-watcher="" data-fls-watcher-once="">
+						<div class="articles__main main-article" role="region" aria-label="Featured article">
+							<div class="main-article__body">
+								<div class="main-article__logo">
+									<img src="./assets/img/articles/logo.svg" alt="Company logo">
+								</div>
+								<div class="main-article__descr">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non lacus vehicula,
+							maximus
+							lorem malesuada, condimentum
+							felis. Praesent posuere quam a rutrum dignissim.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="articles__item">
+							<picture>
+								<img alt="" src="./assets/img/articles/01.webp">
+							</picture>
+						</div>
+						<a href="#!" class="articles__item articles__item--1" aria-label="Read more: Start business with mentors">
+							<div class="articles__inner">
+								<div class="articles__link">Start business with mentors</div>
+							</div>
+						</a>
+						<a href="#!" class="articles__item articles__item--2" aria-label="Read more: Achieve goals and coach fast">
+							<div class="articles__inner">
+								<div class="articles__link">achieve goals & coach fast</div>
+							</div>
+						</a>
+						<div class="articles__item">
+							<picture>
+								<img alt="" src="./assets/img/articles/02.webp">
+							</picture>
+						</div>
+					</div>
+				</section>
+				<section class="page__services services" aria-labelledby="services-title">
+					<div class="services__container" data-fls-watcher="" data-fls-watcher-once="">
+						<div data-fls-blocktitle="" class="services__blocktitle blocktitle">
+							<h4 class="blocktitle__sub-title">NEW services</h4>
+							<h2 class="blocktitle__title" id="services-title">We create solutions that are bold & up with the times</h2>
+						</div>
+						<ul class="services__items">
+							<li class="services__item item-services">
+								<div class="item-services__img">
+									<picture>
+										<img alt="Investments in startups icon" src="./assets/img/services/01.webp">
+									</picture>
+								</div>
+								<div class="item-services__body">
+									<h5 class="item-services__title">Investments in startups</h5>
+									<div class="item-services__descr">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+									</div>
+								</div>
+							</li>
+							<li class="services__item item-services">
+								<div class="item-services__img">
+									<picture>
+										<img alt="We create solutions icon" src="./assets/img/services/02.webp">
+									</picture>
+								</div>
+								<div class="item-services__body">
+									<h5 class="item-services__title">We create solutions</h5>
+									<div class="item-services__descr">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+									</div>
+								</div>
+							</li>
+							<li class="services__item item-services">
+								<div class="item-services__img">
+									<picture>
+										<img alt="Become a viral success icon" src="./assets/img/services/03.webp">
+									</picture>
+								</div>
+								<div class="item-services__body">
+									<h5 class="item-services__title">Become a viral success</h5>
+									<div class="item-services__descr">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+									</div>
+								</div>
+							</li>
+							<li class="services__item item-services">
+								<div class="item-services__img">
+									<picture>
+										<img alt="Target, align, accelerates icon" src="./assets/img/services/04.webp">
+									</picture>
+								</div>
+								<div class="item-services__body">
+									<h5 class="item-services__title">Target, align, accelerates</h5>
+									<div class="item-services__descr">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="page__video-podcast video-podcast" data-fls-watcher="" data-fls-watcher-once="" aria-labelledby="video-podcast-title">
+					<div class="video-podcast__player player-video" id="myVideoBlock" role="region" aria-label="Video podcast player">
+						<div class="player-video__poster">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/video-podcast/preview-600.webp" type="image/webp">
+								<img alt="Video preview" src="./assets/img/video-podcast/preview.webp">
+							</picture>
+							<button class="player-video__play" aria-label="Play or pause video">
+								<svg width="154" height="154" viewbox="0 0 154 154" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<circle cx="77" cy="77" r="76.5" stroke="white"></circle>
+									<circle cx="77" cy="77" r="52" fill="white" fill-opacity="0.5"></circle>
+									<path d="M90.7789 77L70.1105 88.9329L70.1105 65.0671L90.7789 77Z" fill="#172039"></path>
+								</svg>
+							</button>
+						</div>
+						<video class="player-video__video" preload="none" poster="./assets/img/video-podcast/preview.jpg" controls aria-label="Podcast video" tabindex="0">
+							<source src="./assets/video/video-podcast/video_preview_h264.mp4" type="video/mp4">
+						</video>
+					</div>
+					<div class="video-podcast__info info-video" role="region" aria-label="Podcast information">
+						<div class="info-video__inner">
+							<div class="info-video__body">
+								<a href="#!" class="info-video__link" aria-label="Go to Podcast 01">
+									<span>Podcast 01</span>
+								</a>
+								<div class="info-video__text">Lorem ipsum dolor sit amet</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="page__quote quote" aria-labelledby="quote-slider-title">
+					<div class="quote__container" data-fls-watcher="" data-fls-watcher-once="">
+						<div data-fls-slider="" class="quote__slider swiper" role="region" aria-label="Quotes slider">
+							<div class="quote__wrapper swiper-wrapper">
+								<div class="quote__slide swiper-slide slide-quote" role="group" aria-roledescription="slide" aria-label="1 of 3">
+									<div class="slide-quote__inner">
+										<div class="slide-quote__quotes --icon-quotes" aria-hidden="true"></div>
+										<div class="slide-quote__text">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+												<span>Curabitur arcu
+										eros</span>
+												, ornare
+									at iaculis id, blandit sit amet.
+									Cras enim magna, interdum ut consectetur id, pretium eget
+											</p>
+										</div>
+										<div class="slide-quote__author">
+											<span aria-label="Author">Donec lacinia</span>
+										</div>
+									</div>
+								</div>
+								<div class="quote__slide swiper-slide slide-quote" role="group" aria-roledescription="slide" aria-label="2 of 3">
+									<div class="slide-quote__inner">
+										<div class="slide-quote__quotes --icon-quotes" aria-hidden="true"></div>
+										<div class="slide-quote__text">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+												<span>Curabitur arcu
+										eros</span>
+												, ornare
+									at iaculis id, blandit sit amet.
+									Cras enim magna, interdum ut consectetur id, pretium eget
+											</p>
+										</div>
+										<div class="slide-quote__author">
+											<span aria-label="Author">Donec lacinia</span>
+										</div>
+									</div>
+								</div>
+								<div class="quote__slide swiper-slide slide-quote" role="group" aria-roledescription="slide" aria-label="3 of 3">
+									<div class="slide-quote__inner">
+										<div class="slide-quote__quotes --icon-quotes" aria-hidden="true"></div>
+										<div class="slide-quote__text">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+												<span>Curabitur arcu
+										eros</span>
+												, ornare
+									at iaculis id, blandit sit amet.
+									Cras enim magna, interdum ut consectetur id, pretium eget
+											</p>
+										</div>
+										<div class="slide-quote__author">
+											<span aria-label="Author">Donec lacinia</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="quote__btns">
+							<button type="button" class="quote-button-prev --icon-arrow-left" aria-label="Previous quote"></button>
+							<button type="button" class="quote-button-next --icon-arrow-right" aria-label="Next quote"></button>
+						</div>
+					</div>
+				</div>
+				<section class="page__statistics statistics" role="region" aria-label="Statistics">
+					<div class="statistics__blocks" data-fls-watcher="" data-fls-watcher-once="">
+						<figure class="statistics__block statistics__block--image">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/statistics/01-600.webp" type="image/webp">
+								<img class="statistics__picture" alt="Illustration of business statistics" src="./assets/img/statistics/01.webp">
+							</picture>
+						</figure>
+						<article class="statistics__block statistics__block--info-1 block-statistics">
+							<div class="block-statistics__body">
+								<h3 class="block-statistics__title">Connecting businesses, people & ideas for the future</h3>
+								<div class="block-statistics__bottom">
+									<ul class="block-statistics__bars" role="list">
+										<li class="block-statistics__bar" role="progressbar" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100" aria-label="Human resources progress">
+											<div class="block-statistics__elem">
+												<div class="block-statistics__name">human resources</div>
+												<div class="block-statistics__line" style="width:89%"></div>
+											</div>
+											<div class="block-statistics__percent">89%</div>
+										</li>
+										<!-- Progress bar item, marked as a progressbar for screen readers -->
+										<li class="block-statistics__bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" aria-label="Investment consulting progress">
+											<div class="block-statistics__elem">
+												<div class="block-statistics__name">Investment consulting</div>
+												<div class="block-statistics__line" style="width:95%"></div>
+											</div>
+											<div class="block-statistics__percent">95%</div>
+										</li>
+										<!-- Progress bar item, marked as a progressbar for screen readers -->
+										<li class="block-statistics__bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" aria-label="New technologies progress">
+											<div class="block-statistics__elem">
+												<div class="block-statistics__name">new technologies</div>
+												<div class="block-statistics__line" style="width:92%"></div>
+											</div>
+											<div class="block-statistics__percent">92%</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</article>
+						<!-- Info block 2, marked as an article for semantic structure -->
+						<article class="statistics__block statistics__block--info-2 block-statistics">
+							<div class="block-statistics__inner">
+								<!-- Heading for the block, marked as heading level 3 -->
+								<h3 class="block-statistics__title block-statistics__title--orange">Long term planning for unlimited
+						success</h3>
+								<div class="block-statistics__image">
+									<!-- Improved alt text for better context -->
+									<img src="./assets/img/statistics/stat.svg" alt="Statistics chart illustration">
+								</div>
+							</div>
+						</article>
+						<!-- Image block, marked as a figure for semantic structure -->
+						<figure class="statistics__block statistics__block--image">
+							<!-- Improved alt text for better context -->
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/statistics/02-600.webp" type="image/webp">
+								<img class="statistics__picture" alt="Illustration of business statistics" src="./assets/img/statistics/02.webp">
+							</picture>
+						</figure>
+					</div>
+				</section>
+				<section class="page__message message" aria-labelledby="message-title">
+					<div class="message__container" data-fls-watcher="" data-fls-watcher-once="">
+						<div class="message__blocktitle blocktitle blocktitle--big" data-fls-blocktitle="">
+							<h4 class="blocktitle__sub-title">OUR MISSION</h4>
+							<h2 class="blocktitle__title" id="message-title">HELPING CLIENTS STAND OUT</h2>
+						</div>
+						<div class="message__text">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non lacus vehicula, maximus lorem
+					malesuada, condimentum
+					felis. Praesent posuere quam a rutrum dignissim.
+							</p>
+							<p>
+								Pellentesque dolor sapien, lobortis vel pulvinar rhoncus, auctor consectetur dolor. Aliquam eget
+					velit vel massa ornare
+					tincidunt. Nunc sagittis in urna quis sagittis. Morbi dignissim eleifend orci a iaculis. Proin nunc
+					justo, dictum vitae
+					ante ut, accumsan tristique tellus. In lectus velit, dictum ut pretium non, placerat nec ante.
+					Duis congue mauris ac nibh congue tristique. Aenean eget felis faucibus neque placerat volutpat. Ut
+					nec risus
+					consectetur, elementum enim a, malesuada sapien. Praesent scelerisque ligula ac orci ultrices
+					semper. Nunc fringilla
+					nulla ut tellus pharetra facilisis nec rhoncus ipsum. Nam lacus augue, suscipit eget dui eu.
+							</p>
+						</div>
+					</div>
+				</section>
+				<div class="info" role="region" aria-label="Company info">
+					<div class="info__about">
+						Lift your business to new heights with our
+						<a href="#!" class="info__link" aria-label="Learn more about our digital marketing services">digital marketing services</a>
+					</div>
+				</div>
+				<section class="page__geo geo" aria-labelledby="geo-title">
+					<div class="geo__items">
+						<div class="geo__big-image">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/geo/01-600.webp" type="image/webp">
+								<img alt="Office building exterior" src="./assets/img/geo/01.webp">
+							</picture>
+						</div>
+						<div class="geo__location" role="region" aria-label="Map location">
+							<iframe style="border:0" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?hl=en&output=embed&z=16&ll=40.741086,-74.003084&markers=40.741086,-74.003084" title="Company location on map" aria-label="Company location on map"></iframe>
+						</div>
+						<div class="geo__address address-geo" role="region" aria-labelledby="geo-title">
+							<div class="address-geo__inner">
+								<h3 class="address-geo__title" id="geo-title">Our Address</h3>
+								<div class="address-geo__bottom">
+									<div class="address-geo__info">Lorem ipsum</div>
+									<a href="#!" class="address-geo__address" aria-label="Show address on map">9 Aenean eget , Unit 326, Etiam, Lorem ipsum 03286, US</a>
+									<a href="mailto:contact@CDCORP.com" class="address-geo__email">contact@CDCORP.com</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__feedback feedback" role="region" aria-label="Feedback Form">
+					<div class="feedback__container" data-fls-watcher="" data-fls-watcher-once="">
+						<div class="feedback__inner">
+							<div class="feedback__main">
+								<div class="feedback__blocktitle blocktitle blocktitle--small" data-fls-blocktitle="">
+									<h4 class="blocktitle__sub-title">submit inquiry</h4>
+									<h2 class="blocktitle__title blocktitle__title--white">Get In Touch</h2>
+								</div>
+								<form class="feedback__form form-feedback" role="form" aria-label="Contact Form">
+									<div class="form-feedback__columns">
+										<div class="form-feedback__column">
+											<input data-fls-input="" autocomplete="off" type="text" data-error="Error" placeholder="Inquiry type" class="form-feedback__input input" id="inquiry-type" aria-label="Inquiry type" required>
+											<input data-fls-input="" autocomplete="off" type="text" data-error="Error" placeholder="First name" class="form-feedback__input input" id="first-name" aria-label="First name" required>
+											<input data-fls-input="" autocomplete="off" type="text" data-error="Error" placeholder="Last name" class="form-feedback__input input" id="last-name" aria-label="Last name" required>
+											<select class="form-feedback__select" name="form[]" data-fls-select="" data-fls-select-modif="form" id="country" aria-label="Select your country" required>
+												<option value="" selected disabled hidden class="--select-disabled">Country</option>
+												<option value="1">Пункт №1</option>
+												<option value="2">Пункт №2</option>
+												<option value="3">Пункт №3</option>
+											</select>
+										</div>
+										<div class="form-feedback__column">
+											<input data-fls-input="" autocomplete="off" type="email" data-error="Error" placeholder="E-mail" class="form-feedback__input input" id="email" aria-label="Email address" required>
+											<select class="form-feedback__select" name="form[]" data-fls-select="" data-fls-select-modif="form" id="referral-source" aria-label="How did you hear about us?" required>
+												<option value="" selected disabled hidden class="--select-disabled">How did you hear
+										about us?</option>
+												<option value="1">Пункт №1</option>
+												<option value="2">Пункт №2</option>
+												<option value="3">Пункт №3</option>
+											</select>
+											<input data-fls-input="" autocomplete="off" type="email" data-error="Error" placeholder="If “other”, please describe" class="form-feedback__input input" id="referral-description" aria-label="If other, please describe">
+											<div class="form-feedback__textarea">
+												<textarea data-fls-input="" autocomplete="off" data-error="Error" placeholder="Message" class="form-feedback__input form-feedback__input--textarea input" id="message" aria-label="Your message" required></textarea>
+												<div class="resize-custom" aria-hidden="true">
+													<svg width="13" height="13" viewbox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path opacity="0.8" d="M10.0147 0.553623C10.301 0.26726 10.7654 0.267304 11.0518 0.553623C11.3382 0.840007 11.3382 1.30435 11.0518 1.59073L1.51859 11.1239C1.2322 11.4103 0.767864 11.4103 0.481479 11.1239C0.19516 10.8375 0.195117 10.3732 0.481479 10.0868L10.0147 0.553623Z" fill="white" fill-opacity="0.8"></path>
+														<path opacity="0.8" d="M11.481 5.68757C11.7673 5.40127 12.2317 5.40142 12.5181 5.68757C12.8045 5.97396 12.8045 6.4383 12.5181 6.72468L6.65188 12.5909C6.3655 12.8773 5.90116 12.8773 5.61478 12.5909C5.32862 12.3045 5.32847 11.8401 5.61478 11.5538L11.481 5.68757Z" fill="white" fill-opacity="0.8"></path>
+													</svg>
+												</div>
+											</div>
+										</div>
+									</div>
+									<label class="form-feedback__radio-btn">
+										<input data-fls-input="" autocomplete="off" type="checkbox" data-error="Помилка" id="radio-btn" class="form-feedback__input-radio">
+										<span class="form-feedback__radio-fake"></span>
+										<span class="form-feedback__radio-descr">I am interested in receiving latest insights & news</span>
+									</label>
+									<div class="form-feedback__button">
+										<button data-fls-button="" type="submit" class="form-feedback__submit button" aria-label="Submit form">submit</button>
+									</div>
+								</form>
+							</div>
+							<figure class="feedback__photo">
+								<picture>
+									<img class="feedback__picture" alt="Illustration of feedback process" src="./assets/img/feedback/01.webp">
+								</picture>
+							</figure>
+						</div>
+					</div>
+				</section>
+				<section class="page__blog blog" role="region" aria-label="Blog">
+					<div class="blog__container">
+						<div class="blog__blocktitle blocktitle blocktitle--small" data-fls-blocktitle="">
+							<div class="blocktitle__content">
+								<!-- Sub-title, marked as heading level 4 -->
+								<h4 class="blocktitle__sub-title">MARKETING</h4>
+								<!-- Main title, marked as heading level 2 -->
+								<h2 class="blocktitle__title">Blog</h2>
+							</div>
+							<div class="blog__swiper-btns">
+								<!-- Navigation buttons, added aria-label for better context -->
+								<button type="button" class="blog-button-prev --icon-arrow-s-left" aria-label="Previous blog post"></button>
+								<button type="button" class="blog-button-next --icon-arrow-s-right" aria-label="Next blog post"></button>
+							</div>
+						</div>
+						<!-- Slider, marked as a carousel for screen readers -->
+						<div data-fls-slider="" class="blog__slider swiper" role="group" aria-roledescription="carousel">
+							<div class="blog__wrapper swiper-wrapper">
+								<!-- Individual slide, marked as an article and slide for screen readers -->
+								<article class="blog__slide swiper-slide slide-blog" role="group" aria-roledescription="slide">
+									<div class="slide-blog__inner">
+										<div class="slide-blog__content">
+											<div class="slide-blog__top">
+												<!-- Heading for the blog post, marked as heading level 3 -->
+												<h3 class="slide-blog__title">
+													<!-- Added aria-label for better link context -->
+													<a href="#!" aria-label="Read more about how often you should publish blog, video, and social media content">How Often You Should Publish Blog, Video, and Social Media Content</a>
+												</h3>
+												<div class="slide-blog__date">23. OCT</div>
+											</div>
+											<div class="slide-blog__bottom">
+												<!-- Added aria-label for better link context -->
+												<a href="#!" class="slide-blog__link --icon-arrow-right" aria-label="Read more about how often you should publish blog, video, and social media content">
+													<span>READ
+											MORE</span>
+												</a>
+											</div>
+										</div>
+										<div class="slide-blog__image">
+											<!-- Improved alt text for better context -->
+											<picture>
+												<img class="slide-blog__picture" alt="Illustration for blog post about publishing content" src="./assets/img/blog/01.webp">
+											</picture>
+										</div>
+									</div>
+								</article>
+								<!-- Individual slide, marked as an article and slide for screen readers -->
+								<article class="blog__slide swiper-slide slide-blog" role="group" aria-roledescription="slide">
+									<div class="slide-blog__inner">
+										<div class="slide-blog__content">
+											<div class="slide-blog__top">
+												<!-- Fixed duplicate <a> tags, marked as heading level 3 -->
+												<h3 class="slide-blog__title">
+													<!-- Added aria-label for better link context -->
+													<a href="#!" aria-label="Read more about how often you should publish blog, video, and social media content">How Often You Should Publish Blog, Video, and Social Media Content</a>
+												</h3>
+												<div class="slide-blog__date">23. OCT</div>
+											</div>
+											<div class="slide-blog__bottom">
+												<!-- Added aria-label for better link context -->
+												<a href="#!" class="slide-blog__link --icon-arrow-right" aria-label="Read more about how often you should publish blog, video, and social media content">
+													<span>READ
+											MORE</span>
+												</a>
+											</div>
+										</div>
+										<div class="slide-blog__image">
+											<!-- Improved alt text for better context -->
+											<picture>
+												<img class="slide-blog__picture" alt="Illustration for blog post about publishing content" src="./assets/img/blog/02.webp">
+											</picture>
+										</div>
+									</div>
+								</article>
+								<!-- Individual slide, marked as an article and slide for screen readers -->
+								<article class="blog__slide swiper-slide slide-blog" role="group" aria-roledescription="slide">
+									<div class="slide-blog__inner">
+										<div class="slide-blog__content">
+											<div class="slide-blog__top">
+												<!-- Heading for the blog post, marked as heading level 3 -->
+												<h3 class="slide-blog__title">
+													<!-- Added aria-label for better link context -->
+													<a href="#!" aria-label="Read more about how often you should publish blog, video, and social media content">How Often You Should Publish Blog, Video, and Social Media Content</a>
+												</h3>
+												<div class="slide-blog__date">23. OCT</div>
+											</div>
+											<div class="slide-blog__bottom">
+												<!-- Added aria-label for better link context -->
+												<a href="#!" class="slide-blog__link --icon-arrow-right" aria-label="Read more about how often you should publish blog, video, and social media content">
+													<span>READ
+											MORE</span>
+												</a>
+											</div>
+										</div>
+										<div class="slide-blog__image">
+											<!-- Improved alt text for better context -->
+											<picture>
+												<img class="slide-blog__picture" alt="Illustration for blog post about publishing content" src="./assets/img/blog/03.webp">
+											</picture>
+										</div>
+									</div>
+								</article>
+								<!-- Individual slide, marked as an article and slide for screen readers -->
+								<article class="blog__slide swiper-slide slide-blog" role="group" aria-roledescription="slide">
+									<div class="slide-blog__inner">
+										<div class="slide-blog__content">
+											<div class="slide-blog__top">
+												<!-- Heading for the blog post, marked as heading level 3 -->
+												<h3 class="slide-blog__title">How Often You Should Publish Blog, Video, and Social Media Content</h3>
+												<div class="slide-blog__date">23. OCT</div>
+											</div>
+											<div class="slide-blog__bottom">
+												<!-- Added aria-label for better link context -->
+												<a href="#!" class="slide-blog__link --icon-arrow-right" aria-label="Read more about how often you should publish blog, video, and social media content">
+													<span>READ
+											MORE</span>
+												</a>
+											</div>
+										</div>
+										<div class="slide-blog__image">
+											<!-- Improved alt text for better context -->
+											<picture>
+												<img class="slide-blog__picture" alt="Illustration for blog post about publishing content" src="./assets/img/blog/01.webp">
+											</picture>
+										</div>
+									</div>
+								</article>
+								<!-- Individual slide, marked as an article and slide for screen readers -->
+								<article class="blog__slide swiper-slide slide-blog" role="group" aria-roledescription="slide">
+									<div class="slide-blog__inner">
+										<div class="slide-blog__content">
+											<div class="slide-blog__top">
+												<!-- Heading for the blog post, marked as heading level 3 -->
+												<h3 class="slide-blog__title">How Often You Should Publish Blog, Video, and Social Media Content</h3>
+												<div class="slide-blog__date">23. OCT</div>
+											</div>
+											<div class="slide-blog__bottom">
+												<!-- Added aria-label for better link context -->
+												<a href="#!" class="slide-blog__link --icon-arrow-right" aria-label="Read more about how often you should publish blog, video, and social media content">
+													<span>READ
+											MORE</span>
+												</a>
+											</div>
+										</div>
+										<div class="slide-blog__image">
+											<!-- Improved alt text for better context -->
+											<picture>
+												<img class="slide-blog__picture" alt="Illustration for blog post about publishing content" src="./assets/img/blog/02.webp">
+											</picture>
+										</div>
+									</div>
+								</article>
+								<!-- Individual slide, marked as an article and slide for screen readers -->
+								<article class="blog__slide swiper-slide slide-blog" role="group" aria-roledescription="slide">
+									<div class="slide-blog__inner">
+										<div class="slide-blog__content">
+											<div class="slide-blog__top">
+												<!-- Heading for the blog post, marked as heading level 3 -->
+												<h3 class="slide-blog__title">How Often You Should Publish Blog, Video, and Social Media Content</h3>
+												<div class="slide-blog__date">23. OCT</div>
+											</div>
+											<div class="slide-blog__bottom">
+												<!-- Added aria-label for better link context -->
+												<a href="#!" class="slide-blog__link --icon-arrow-right" aria-label="Read more about how often you should publish blog, video, and social media content">
+													<span>READ
+											MORE</span>
+												</a>
+											</div>
+										</div>
+										<div class="slide-blog__image">
+											<!-- Improved alt text for better context -->
+											<picture>
+												<img class="slide-blog__picture" alt="Illustration for blog post about publishing content" src="./assets/img/blog/03.webp">
+											</picture>
+										</div>
+									</div>
+								</article>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer" role="contentinfo" aria-labelledby="footer-logo">
+				<div class="footer__container">
+					<div class="footer__top top-footer">
+						<div class="top-footer__site-info">
+							<div class="top-footer__logo" id="footer-logo">
+								<picture>
+									<img alt="C&D CORP logo" src="./assets/img/footer/logo.webp">
+								</picture>
+							</div>
+							<div class="top-footer__descr">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non lacus vehicula, maximus lorem
+						malesuada, condimentum
+						felis. Praesent posuere quam a rutrum dignissim. Pellentesque dolor sapien, lobortis.
+								</p>
+							</div>
+						</div>
+						<div class="top-footer__columns">
+							<nav class="top-footer__column" aria-label="Main footer navigation">
+								<ul class="top-footer__list">
+									<li class="top-footer__list-item">
+										<a href="#!" class="top-footer__link">Home</a>
+									</li>
+									<li class="top-footer__list-item">
+										<a href="#!" class="top-footer__link">Services</a>
+									</li>
+									<li class="top-footer__list-item">
+										<a href="#!" class="top-footer__link">Podcasts</a>
+									</li>
+									<li class="top-footer__list-item">
+										<a href="#!" class="top-footer__link">Blog</a>
+									</li>
+									<li class="top-footer__list-item">
+										<a href="#!" class="top-footer__link">About</a>
+									</li>
+								</ul>
+							</nav>
+							<nav class="top-footer__column" aria-label="Social media">
+								<ul class="top-footer__list">
+									<li class="top-footer__list-item">
+										<a href="#!" class="top-footer__link">Youtube</a>
+									</li>
+									<li class="top-footer__list-item">
+										<a href="#!" class="top-footer__link">Linkedin</a>
+									</li>
+									<li class="top-footer__list-item">
+										<a href="#!" class="top-footer__link">Instagram</a>
+									</li>
+									<li class="top-footer__list-item">
+										<a href="#!" class="top-footer__link">Twitter</a>
+									</li>
+									<li class="top-footer__list-item">
+										<a href="#!" class="top-footer__link">Email</a>
+									</li>
+								</ul>
+							</nav>
+							<div class="top-footer__subscribe-column">
+								<h4 class="top-footer__title">Subscribe</h4>
+								<form class="top-footer__sub-elem" aria-label="Subscribe to newsletter">
+									<input data-fls-input="" autocomplete="off" type="email" data-error="Error" placeholder="Email" class="top-footer__sub-input input" id="subInput" required>
+									<button type="submit" class="top-footer__label --icon-arrow-right" aria-label="Subscribe"></button>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="footer__bottom bottom-footer">
+						<div class="bottom-footer__copy">©2023 C&D CORP, All Rights Reserved.</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
