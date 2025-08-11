@@ -6,7 +6,7 @@ cdCorp Web-Site
 
 ## Демонстрация
 
-Ссылка на сайт: <a href="https://1jordanwalton1.github.io/Jadoo/">клик</a>
+Ссылка на сайт: <a href="https://1jordanwalton1.github.io/cdCorp">клик</a>
 
 ## Технологии
 
